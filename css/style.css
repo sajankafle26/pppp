@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    margin: 0; padding: 0;  box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a 
+{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+body 
+{
+      font-family: "Roboto", sans-serif;
+      overflow-x: hidden;
+}
+.flex 
+{
+    display: flex;
+}
+.jc {
+    justify-content: space-between;
+}
+.ai {
+    align-items: center;
+}
+.gap {
+    gap: 20px;
+}
+.p {
+    padding: 20px 0;
+}
+.container
+{
+    margin: auto;
+    width: 1200px;
+}
+header h1 span 
+{
+    color: orange;
+}
+nav a 
+{
+    color: orange;
+    padding: 0px 15px;
+}
+.btn
+{
+    background: orange; border: none; padding: 10px;
+    color: white;
+}
+.banner-left
+{
+    width: 500px;
+}
+.counter
+{
+    background: orange;
+    color: #fff;
+    padding: 40px 0;
+}
+ .jaround 
+ {
+    justify-content: space-around;
+ }
+ .banner
+ {
+    position: relative;
+ }
+ .shape
+{
+    position: absolute;
+    top: -50px;
+    right: -30px;
+}
